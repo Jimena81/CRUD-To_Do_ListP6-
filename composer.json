@@ -1,0 +1,17 @@
+{
+    "name": "jimen/todo-list-p6",
+    "autoload": {
+        "psr-4": {
+            "Jimen\\TodoListP6\\": "src/",
+            "App\\":"App",
+            "PDO\\":"PDO"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jimena",
+            "email": "jimenacastellanos81@gmail.com"
+        }
+    ],
+    "require": {}
+}
