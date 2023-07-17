@@ -27,11 +27,11 @@ class DatabaseConnection{
     }
 
 
-    public function executeQuery($query, $parameters=[]){
+    public function execute_query($query, $params=[]){
         $statement= $this-> connection-> prepare($query);
-        $results= $statement-> execute($parameters);
+        $statement-> execute($params);
 
-        return $results;
+        return $statement;
     }
    
 }
